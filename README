@@ -1,1 +1,26 @@
-First Post
+Proyecto dedicado a conglomerar varios documentos que definirán los
+lineamientos que debe seguir el programador al desarrollar software
+para FUNVISIS.
+
+Los documentos deben ser escritos en un lenguaje de etiquetado o
+formato de texto, para facilitar el control de versiones de los
+mismos. En este sentido, los siguientes lenguajes serán aceptados:
+
+ * LaTeX
+ * reStructuredText
+ * DocBook
+
+Uno de los documentos aquí redactados define los lineamientos del
+proceso iterativo de desarrollo de las obras que deben ser respetados
+incluso por este mismo proyecto. De ellos, rescatamos para exponerlos
+en este documento README los siguietes:
+
+ * Lectura del libro Pro Git[1]
+ * Cada sesión de trabajo debe estar definida en alguna incidencia
+   registrada en el sistema de control de incidencias utilizado.
+ * Respetar los lineamientos que define para las "commits". Mejor
+   explicado en [2]
+
+[1] http://progit.org/book/
+[2] Capítulo "Distributed Git", sección "Contributing to a Project",
+subsección "Commit Guidelines"
