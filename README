@@ -15,12 +15,18 @@ proceso iterativo de desarrollo de las obras que deben ser respetados
 incluso por este mismo proyecto. De ellos, rescatamos para exponerlos
 en este documento README los siguietes:
 
- * Lectura del libro Pro Git[1]
+ * Lectura del libro Pro Git [1]
  * Cada sesión de trabajo debe estar definida en alguna incidencia
    registrada en el sistema de control de incidencias utilizado.
  * Respetar los lineamientos que define para las "commits". Mejor
-   explicado en [2]
+   explicado en [2].
+ ** Las oraciones de los mensajes de los "commits" deben ser en tiempo
+    presente y tiempo impersonal. Por ejemplo: «Se añade una sección
+    ...» en vez de «Añadí una sección ...».
+ * Las palabras extranjeras deben estar en cursiva o en su defecto en
+   comillas simples. [3]
 
 [1] http://progit.org/book/
 [2] Capítulo "Distributed Git", sección "Contributing to a Project",
-subsección "Commit Guidelines"
+subsección "Commit Guidelines".
+[3] http://reglasdeortografia.com/extranjerismos.htm
