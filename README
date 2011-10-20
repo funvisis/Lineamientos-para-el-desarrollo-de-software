@@ -3,8 +3,9 @@ lineamientos que debe seguir el programador al desarrollar software
 para FUNVISIS.
 
 Los documentos deben ser escritos en un lenguaje de etiquetado o
-formato de texto, para facilitar el control de versiones de los
-mismos. En este sentido, los siguientes lenguajes serán aceptados:
+formato de texto de estandar abierto, para facilitar el control de
+versiones de los mismos. En este sentido, los siguientes lenguajes
+serán aceptados:
 
  * LaTeX
  * reStructuredText
