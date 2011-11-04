@@ -17,18 +17,15 @@ Estándares a usar
 La siguiente es una lista de estándares para alguno de los lenguajes 
 más populares:
 
-* C++: `"C++ Programming Style Guidelines - Geotechnical Software 
-Services" <http://geosoft.no/development/cppstyle.html>`_ o 
-`"Google C++ Style Guide" 
-<http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml>`_. 
-* Python: `"PEP 8 -- Style Guide for Python Code" 
-<http://www.python.org/dev/peps/pep-0008/>`_.
-* Java: `"Oracle Style Guide" 
-<http://www.oracle.com/technetwork/java/codeconv-138413.html>`_.
-* Ruby: `"Unofficial Ruby Style Guide" 
-<http://www.caliban.org/ruby/rubyguide.shtml>`_.
-* PHP: `"Pear PHP Coding Style"
-<http://pear.php.net/manual/en/standards.php>`_.
+* C++: `"C++ Programming Style Guidelines - Geotechnical Software Services" <http://geosoft.no/development/cppstyle.html>`_ o `"Google C++ Style Guide" <http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml>`_. 
+
+* Python: `"PEP 8 -- Style Guide for Python Code" <http://www.python.org/dev/peps/pep-0008/>`_.
+
+* Java: `"Oracle Style Guide" <http://www.oracle.com/technetwork/java/codeconv-138413.html>`_.
+
+* Ruby: `"Unofficial Ruby Style Guide" <http://www.caliban.org/ruby/rubyguide.shtml>`_.
+
+* PHP: `"Pear PHP Coding Style" <http://pear.php.net/manual/en/standards.php>`_.
 
 =======================
 Consideraciones finales
