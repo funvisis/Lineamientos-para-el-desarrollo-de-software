@@ -12,7 +12,7 @@ Filosofía
 
 "Escribe programas que hagan una cosa, y que la hagan bien" - Doug McIlroy
 
-Los sistemas Unix ha sido referente durante mucho tiempo para el
+Los sistemas Unix han sido referente durante mucho tiempo para el
 mundo del software libre y es por una sencilla razón: durante mucho
 tiempo Unix se ha venido desarrollando y en base a eso, los 
 desarrolladores han experimentado innumerables situaciones, las cuales,
@@ -28,7 +28,7 @@ Motivación
 
 Durante el desarrollo del proyecto Sismocaracas (usando el framework web
 Django), surgieron entre los desarrolladores varias controversias sobre
-cómo debería ser el enfoque a seguir durante el desarrollo. Guíados por
+cómo debería ser el enfoque a seguir durante el desarrollo. Guíados
 sobretodo por la filosofía Unix, se construyó de manera conceptual, un
 esquema de los puntos fundamentales en todo desarrollo de software 
 profesional:
@@ -48,7 +48,7 @@ proyecto de software. Sin embargo, los puntos antes tratados son agnósticos
 de éstas respuestas, y no comprometen de ninguna manera la libre escogencia
 de las herramientas que el programador desee usar.
 
-Más allá de los detalles implementativos propios del desarrollo, éste debe
+Más allá de los detalles de implementación propios del desarrollo, éste debe
 contemplar los puntos antes mencionados de forma natural y endógena.
 
 Estructura de los proyectos y las aplicaciones
@@ -60,14 +60,15 @@ para los proyectos y aplicaciones afectará de forma positiva o negativa este
 objetivo. Sin embargo, este punto es bastante abstracto y puede variar de
 desarrollo en desarrollo, por tal motivo, se sugiere seguir estas convenciones:
 
-- Si algo es muy grande y complejo, posiblemente pueda ser picado en una o
-varias partes más pequeñas y, de ser posible, independientes.
-- De ser posible, plantee soluciones que puedan ser implementadas de forma
-bottom-up, i.e., aplicaciones pequeñas y bien probadas que puedan interoperar
-con otras aplicaciones a través de una interfaz clara y simple.
+- Si algo es muy grande y complejo, posiblemente pueda ser picado en
+  una o varias partes más pequeñas y, de ser posible, independientes.
+- De ser posible, plantee soluciones que puedan ser implementadas de
+  forma bottom-up, i.e., aplicaciones pequeñas y bien probadas que
+  puedan interoperar con otras aplicaciones a través de una interfaz
+  clara y simple.
 - Reutilice siempre que se pueda, tanto aplicaciones propias como ajenas.
-- Si usted creo y refinó su propio estándar, apéguese a él y documéntelo
-apropiadamente.
+- Si usted creó y refinó su propio estándar, apéguese a él y
+  documéntelo apropiadamente.
 
 Estilo de programación
 ======================
@@ -105,6 +106,3 @@ control de versiones, por varios motivos:
 Hace algunos años, el control de versiones era un poco más que un respaldo del
 proyecto en un lugar seguro, pero con el paso de los años, se ha vuelto una 
 herramienta mucho más versátil y que ofrece mucho más que respaldo de código.
-
-
-
