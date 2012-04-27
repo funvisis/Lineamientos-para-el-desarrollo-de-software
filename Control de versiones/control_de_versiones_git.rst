@@ -138,6 +138,33 @@ el *branch* actual. Finalmente, para saltar al *branch* recién creado:
 hayan sido "respaldados" por un commit se eliminarán, y las copias de los archivos
 serán actualizadas por las copias del *branch*
 
+Otras operaciones
+=================
+
+Un detalle de git es que no siempre es posible hacer cambios en la estructura del
+directorio de forma directa. Es necesario hacerlo por el mismo git. Por ejemplo,
+si se deseara eliminar el archivo "annoying_code.py", es necesario hacer:
+
+    $ git rm annoying_code.py
+
+De la misma forma, si se deseara mover un archivo de un lugar a otro se debe hacer:
+
+    $ git mv annoying_code.py boring/annoying_code.py
+
+Otros comandos git
+==================
+
+   bisect     Busca por búsqueda binaria un cambio que haya introducido un error
+   clone      Clona un repositorio a un nuevo directorio
+   grep       Imprime líneas que igualen un patrón
+   log        Muestra los *logs* de los *commits*
+   rebase     Mueve los *commits* locales a los *commits* actualizados del *remote*
+   reset      Reinicia el *HEAD* actual a un estado específico
+   show       Muestra varios tipos de objetos
+   status     Muestra el *status* del árbol de trabajo
+   tag        Crea, lista, elimina o verifica una etiqueta firmada con GPG
+   --help     Imprime la ayuda
+
 
 
 
