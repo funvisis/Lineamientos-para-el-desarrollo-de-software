@@ -106,3 +106,48 @@ control de versiones, por varios motivos:
 Hace algunos años, el control de versiones era un poco más que un respaldo del
 proyecto en un lugar seguro, pero con el paso de los años, se ha vuelto una 
 herramienta mucho más versátil y que ofrece mucho más que respaldo de código.
+
+Pruebas
+=======
+
+"Todo código es culpable, hasta que se demuestre lo contrario" - Anónimo
+
+En el mundo del desarrollo del software, un componente que no se prueba adecuadamente
+es incorrecto por diseño. Por tal motivo, es obligación del desarrollador
+diseñar y efectuar pruebas intensivas y extensivas a la aplicación que desarrolla.
+
+Para tal fin, existen varios métodos, pero me gustaría poner sobre la mesa dos
+métodos fundamentales:
+
+- Pruebas unitarias: pruebas pequeñas realizadas sobre clases y/o funciones
+las cuales pretenden comprobar la *correctitud* de las mismas en distintas situaciones.
+Este tipo de pruebas dependen mucho de la capacidad del programador en pensar
+situaciones típicas y atípicas (casos borde), y no todo el mundo tiene buena
+capacidad para ello (incluyéndome), por lo que a veces es necesario el trabajo
+conjunto de varios programadores para diseñar un buen conjunto de pruebas.
+
+- Pruebas caja negra: durante el desarrollo, es muy probable que se encuentren
+piezas de software en las cuales no es factible realizar pruebas unitarias, como
+por ejemplo aquellas que van destinadas a la interacción directa con el usuario.
+
+Una buena medida de la calidad de un software consiste por revisar cuantas pruebas
+éste a pasado.
+
+
+¿Qué sigue?
+===========
+
+En la parte dos, se revisarán los aspectos relativos a seguimiento y a puesta en 
+producción, que como dice la frase inglesa "*last but not least*", conforman una
+parte importante en todo este proceso de desarrollo de software.
+
+
+
+
+
+
+
+
+
+
+
