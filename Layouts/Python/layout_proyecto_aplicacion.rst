@@ -133,6 +133,11 @@ lo incluya como paquete.
 para poder funcionar.
 
 
+Fuentes
+=======
+
+- The Hitchhiker’s Guide to Packaging. (http://guide.python-distribute.org/index.html)
+- Python Project Howto. (http://infinitemonkeycorps.net/docs/pph/)
 
 
 
