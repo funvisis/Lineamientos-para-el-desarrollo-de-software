@@ -5,7 +5,7 @@
 :Autor:
 	"Daniel Ampuero" <danielmaxx@gmail.com>
 
-:Versión: 1.0 24/04/2012
+:Versión: 1.0 31/05/2012
 
 
 En la primera parte de este escrito, se describieron varios puntos
