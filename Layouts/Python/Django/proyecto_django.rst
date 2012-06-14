@@ -90,7 +90,7 @@ El siguiente es la estructura de directorios para un proyecto Django
    | requirements.pip # Requisitos para virtualenv
    | non_python_req # Un archivo de texto plano
    | deployment     # Un directorio dedicado a la puesta en producción
-   | fixtures       # Datos iniciales. En caso de no existir, dejar vacío
+   | fixtures       # Directorio con los datos iniciales en formato .json
    | bar
       | settings.py
       | urls.py
