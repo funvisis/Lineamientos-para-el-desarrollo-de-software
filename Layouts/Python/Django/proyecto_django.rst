@@ -85,13 +85,16 @@ El siguiente es la estructura de directorios para un proyecto Django
    | manage.py
    | doc            # Documentación del proyecto
    | README         # Se explican los requisitos del proyecto
-   | static         {.html, .js, .css, .jpg, .png, etc}
+   | static         # {.html, .js, .css, .jpg, .png, etc}
    | templates      # Templates de Django
    | requirements.pip # Requisitos para virtualenv
    | non_python_req # Un archivo de texto plano
    | deployment     # Un directorio dedicado a la puesta en producción
+   | fixtures       # Datos iniciales. En caso de no existir, dejar vacío
    | bar
       | settings.py
       | urls.py
       | __init__.py      
+
+
 

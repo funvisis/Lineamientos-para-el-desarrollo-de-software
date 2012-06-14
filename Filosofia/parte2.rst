@@ -27,8 +27,8 @@ mismo proceso?". La respuesta de esto radica precisamente en la dimensión
 temporal donde habitan los aspectos que se tratarán en esta parte.
 
 ¿Qué quiere decir dimensión temporal? Es muy simple: los sistemas de seguimiento
-y puesta en producción son elementos que no necesariamente son usados
-asíduamente por un desarrollador.
+y puesta en producción son herramientas que no necesariamente son usados
+a diario por el desarrollador.
 
 A continuación, se describirá en que consiste cada aspecto y qué beneficios
 aporta al ciclo de desarrollo.
@@ -62,14 +62,24 @@ El concepto fundamental detrás de todo esto es el aprovisionamiento. Éste cons
 en indicar, mediante algún script o lenguaje de marcado, cuales son los requisitos
 para que una pieza de software en particular funcione.
 
-Por otro lado, existe otra arista que, como efecto colateral beneficioso, proveen
+Por otro lado, existe otra posibilidad que, como efecto colateral beneficioso, proveen
 estos "aprovisionadores": la posibilidad de crear ambientes virtuales de desarrollo
 distribuibles. Esto significa que para alguien que está entrando nuevo en el equipo
 de desarrollo, es bastante fácil que se ponga al tanto de las bibliotecas, herramientas
 y demás adminículos que son necesarios para desarrollar.
 
+Notas finales - Modularidad e integración
+=========================================
 
+Como ya se mencionó en la primera parte, la filosofía de este documento está
+fuertemente ligada a la filosofía Unix. Por tal motivo, las notas finales están
+dedicadas dos recomendaciones que se deberían seguir al momento de desarrollar:
 
+- Desarrollo modular: de ser posible, un sistema debe ser picado en partes pequeñas,
+  tan pequeñas como sea posible.
+- Integración: cuando un proyecto amerite la integración de varios módulos, debe
+  existir una documentación apropiada al respecto que indique claramente cuáles
+  módulos deben integrarse.
 
 
 
