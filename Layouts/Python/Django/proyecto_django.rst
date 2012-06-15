@@ -39,7 +39,9 @@ PARTE DEL PROYECTO, sino que es un script con múltiples herramientas.
 De esta forma, el layout base de un proyecto Django (el cual llamaremos
 de forma muy original bar) es el siguiente:
 
-- bar
+::
+
+   bar
    | manage.py
    | bar
       | settings.py
@@ -57,8 +59,7 @@ para desarrollo y otra para producción. En tal sentido, una forma
 inteligente de resolver tal diatriba es poseer tres archivos de
 configuración: 
 
-- settings_base: la configuración básica y común a las fases de
-desarrollo y producción. 
+- settings_base: la configuración básica y común a las fases de desarrollo y producción. 
 - settings_dev: configuración para entorno de desarrollo.
 - settings_prod: configuración para el entorno de producción.
 
@@ -81,7 +82,9 @@ ambicioso, es preciso contemplar otras cosas.
 El siguiente es la estructura de directorios para un proyecto Django
 (el cual, evidentemente, sigue llamándose "bar"):
 
-- bar
+::
+  
+   bar
    | manage.py
    | doc            # Documentación del proyecto
    | README         # Se explican los requisitos del proyecto
@@ -92,9 +95,10 @@ El siguiente es la estructura de directorios para un proyecto Django
    | deployment     # Un directorio dedicado a la puesta en producción
    | fixtures       # Directorio con los datos iniciales en formato .json
    | bar
-      | settings.py
+      | __init__.py
+      | settings_base.py
+      | settings_dev.py
+      | settings_prod.py
       | urls.py
-      | __init__.py      
-
 
 

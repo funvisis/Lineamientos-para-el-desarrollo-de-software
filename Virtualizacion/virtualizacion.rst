@@ -61,8 +61,7 @@ casualidad que todos sean interpretados), existe el concepto de sandbox, lo
 cual permite al desarrollador tener varios desarrollos "puros" [#]_ sin preocuparse
 por los posibles conflictos entre las bibliotecas requeridas por ellos.
 
-.. [#] Con "puros" quiero decir, completamente basados en componentes escritos
-en ese lenjuage.
+.. [#] Con "puros" quiero decir, completamente basados en componentes escritos en ese lenjuage.
 
 Virtualización - Nivel Veterano
 ===============================

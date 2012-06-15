@@ -119,16 +119,9 @@ diseñar y efectuar pruebas intensivas y extensivas a la aplicación que desarro
 Para tal fin, existen varios métodos, pero me gustaría poner sobre la mesa dos
 métodos fundamentales:
 
-- Pruebas unitarias: pruebas pequeñas realizadas sobre clases y/o funciones
-las cuales pretenden comprobar la *correctitud* de las mismas en distintas situaciones.
-Este tipo de pruebas dependen mucho de la capacidad del programador en pensar
-situaciones típicas y atípicas (casos borde), y no todo el mundo tiene buena
-capacidad para ello (incluyéndome), por lo que a veces es necesario el trabajo
-conjunto de varios programadores para diseñar un buen conjunto de pruebas.
+- Pruebas unitarias: pruebas pequeñas realizadas sobre clases y/o funciones las cuales pretenden comprobar la *correctitud* de las mismas en distintas situaciones. Este tipo de pruebas dependen mucho de la capacidad del programador en pensar situaciones típicas y atípicas (casos borde), y no todo el mundo tiene buena capacidad para ello (incluyéndome), por lo que a veces es necesario el trabajo conjunto de varios programadores para diseñar un buen conjunto de pruebas.
 
-- Pruebas caja negra: durante el desarrollo, es muy probable que se encuentren
-piezas de software en las cuales no es factible realizar pruebas unitarias, como
-por ejemplo aquellas que van destinadas a la interacción directa con el usuario.
+- Pruebas caja negra: durante el desarrollo, es muy probable que se encuentren piezas de software en las cuales no es factible realizar pruebas unitarias, como por ejemplo aquellas que van destinadas a la interacción directa con el usuario.
 
 Una buena medida de la calidad de un software consiste por revisar cuantas pruebas
 éste a pasado.

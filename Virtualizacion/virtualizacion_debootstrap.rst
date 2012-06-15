@@ -30,7 +30,7 @@ Sí vas a usar debootstrap, debes tener en cuenta:
 
 - Instalarás un sistema base con los requisitos mínimos, i.e. no
   tendrás programas que usualmente das por sentado, incluso vim.
-- Si tienes que instalar bibliotecas de sistema, es probable que
+- Si tienes que instalar bibliotecas de con alcance de sistema, es probable que
   debas instalar algunas otras cosas, pues probablemente el proveedor
   de la biblioteca asume que ya tienes un conjunto básico de programas
   y/o bibliotecas instalado.

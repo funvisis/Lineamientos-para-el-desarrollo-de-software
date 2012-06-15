@@ -154,16 +154,16 @@ De la misma forma, si se deseara mover un archivo de un lugar a otro se debe hac
 Otros comandos git
 ==================
 
-   bisect     Busca por búsqueda binaria un cambio que haya introducido un error
-   clone      Clona un repositorio a un nuevo directorio
-   grep       Imprime líneas que igualen un patrón
-   log        Muestra los *logs* de los *commits*
-   rebase     Mueve los *commits* locales a los *commits* actualizados del *remote*
-   reset      Reinicia el *HEAD* actual a un estado específico
-   show       Muestra varios tipos de objetos
-   status     Muestra el *status* del árbol de trabajo
-   tag        Crea, lista, elimina o verifica una etiqueta firmada con GPG
-   --help     Imprime la ayuda
+   - bisect:     Busca por búsqueda binaria un cambio que haya introducido un error
+   - clone:      Clona un repositorio a un nuevo directorio
+   - grep:       Imprime líneas que igualen un patrón
+   - log:        Muestra los *logs* de los *commits*
+   - rebase:     Mueve los *commits* locales a los *commits* actualizados del *remote*
+   - reset:      Reinicia el *HEAD* actual a un estado específico
+   - show:       Muestra varios tipos de objetos
+   - status:     Muestra el *status* del árbol de trabajo
+   - tag:        Crea, lista, elimina o verifica una etiqueta firmada con GPG
+   - --help:     Imprime la ayuda
 
 
 
